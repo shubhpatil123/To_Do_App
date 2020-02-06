@@ -1,0 +1,18 @@
+{
+  "name": "to_do_app",
+  "version": "1.0.0",
+  "description": "My To Do Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "To_Do"
+  ],
+  "author": "Shubham_Patil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
