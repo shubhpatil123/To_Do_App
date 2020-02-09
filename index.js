@@ -2,9 +2,13 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
+const db = require('./config/mongoose');
+
+const To_Do =require('./models/To_Do');
 //use express router
 app.use('/',require('./routes'));
 
+app.use(express.static('assets'));
 //set up view engine
 app.set('view engine','ejs');
 app.set('views','./views');
